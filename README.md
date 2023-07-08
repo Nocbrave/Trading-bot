@@ -16,3 +16,5 @@ In the python code, i created a TradingBot object, connect to the Binance exchan
  -  ```execute_trade```: Executes a market order for the specified symbol and side (buy or sell) with the specified quantity.
  -  ```run_strategy```: Implements the trading strategy based on predefined conditions (in this example, a simple SMA crossover strategy).
    
+- Error handling: Exceptions are caught when fetching candles or executing trades, and appropriate error messages are displayed.
+- Risk management: When a buy order is executed, a stop-loss price is set 2% below the entry price. When a sell order is executed, a take-profit price is set 2% above the entry price. These prices act as risk management measures
