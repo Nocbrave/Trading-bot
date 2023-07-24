@@ -28,7 +28,7 @@ class TradingBot:
             return None
 
     def run_strategy(self):
-        # Fetch recent candles
+        # Fetch recent candles:
         candles = self.get_recent_candles("1h", 20)
 
         if not candles:
