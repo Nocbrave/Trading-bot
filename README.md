@@ -1,6 +1,6 @@
 # Trading bot
 A simple  automated trading bot that executes trades based on predefined strategies and market conditions.
--------------------------
+
 
 Please note that To use the code, make sure you have the ccxt library installed. You can install it using the following command:
 ```
