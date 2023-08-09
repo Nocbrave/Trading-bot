@@ -8,7 +8,7 @@ __Note:__ To use the code, make sure you have the ccxt library installed. You ca
 pip install ccxt
 ```
 
-In the python code, i created a TradingBot object, connect to the Binance exchange using API keys, and specify the symbol (BTC/USDT). We then run the strategy, which fetches recent candlestick data, calculates the SMA, and executes a buy or sell order based on the predefined conditions.
+In the python code, i created a TradingBot object, connect to the Binance exchange using API keys, and specify the symbol (BTC/USDT). We then run the strategy, which fetches recent candlestick data, calculates the SMA, and executes a buy or sell order based on the predefined conditions:
 
 
  -  ``` __init__ ```: Initializes the bot with the exchange and symbol.
