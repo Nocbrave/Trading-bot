@@ -4,6 +4,7 @@ A simple  automated trading bot that executes trades based on predefined strateg
 
 
 __Note:__ To use the code, make sure you have the ccxt library installed. You can install it using the following command:
+
 ```bash
 pip install ccxt
 ```
